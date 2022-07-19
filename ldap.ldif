@@ -1,0 +1,34 @@
+
+dn: cn=users,dc=example,dc=org
+cn: users
+gidnumber: 500
+objectclass: posixGroup
+objectclass: top
+
+dn: cn=User One,cn=users,dc=example,dc=org
+cn: User One 
+gidnumber: 500
+givenname: One 
+homedirectory: /home/users/jmaaks
+loginshell: /bin/bash
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: User 
+uid: user1 
+uidnumber: 1001
+userpassword: {MD5}M0xKTEL9t51+vD5ztRfm+A==
+
+dn: cn=User Two,cn=users,dc=example,dc=org
+cn: User Two 
+gidnumber: 500
+givenname: Two 
+homedirectory: /home/users/lsindt
+loginshell: /bin/bash
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: top
+sn: User
+uid: user2 
+uidnumber: 1000
+userpassword: {MD5}M0xKTEL9t51+vD5ztRfm+A==
